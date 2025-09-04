@@ -1,0 +1,1 @@
+Code written to find the area of the rectangle 

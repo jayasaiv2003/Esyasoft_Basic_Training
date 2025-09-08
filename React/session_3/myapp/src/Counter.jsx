@@ -22,10 +22,12 @@ function Counter(){
     [a,b]=[b,a];
     console.log(a);
     console.log(b);
+
     const prev={name:'A', age: 20};
     const next={...prev};
     console.log(next.name);
     console.log(next.age);
+    
     const increment=()=>{
         count++;
         document.getElementById("c1").innerText=count;

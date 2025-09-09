@@ -25,9 +25,6 @@ int main(void){
 
     while(1)
     {
-
-    
-
         PORTD^=(1<<LED_PIN3);
         _delay_ms(1000);
     }

@@ -27,7 +27,7 @@ function Counter(){
     const next={...prev};
     console.log(next.name);
     console.log(next.age);
-    
+    /* writing plain javascript without state below*/
     const increment=()=>{
         count++;
         document.getElementById("c1").innerText=count;

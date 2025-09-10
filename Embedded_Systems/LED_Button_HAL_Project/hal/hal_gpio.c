@@ -1,0 +1,1 @@
+void HAL_GPIO_Init(volatile unit8_t *port, unit8_t pin)

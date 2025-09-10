@@ -14,7 +14,7 @@ void lcd_data(unsigned char data);
 void lcd_init();
 void lcd_string(const char *str);
 void lcd_pulse();
-
+     
 int main(void) {
     DDRB = 0xFF;    // Port B as output (RS, EN, D4-D6)
     DDRD |= (1<<PD7); // PD7 as output for D7

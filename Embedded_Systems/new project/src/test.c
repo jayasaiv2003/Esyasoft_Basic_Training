@@ -1,32 +1,31 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define LED_PIN1 PD2
-#define LED_PIN2 PD5
-#define LED_PIN3 PD7
-
+#define LED_PIN PD6
+#define BUTTON_PIN PD2
 
 int main(void){
-    DDRD|=(1<<LED_PIN1);
-    DDRD|=(1<<LED_PIN2);
-    DDRD|=(1<<LED_PIN3);
+    DDRD|=(1<<LED_PIN);
+    DDRD&=~(1<<BUTTON_PIN);
+    PORTD|=(1<<BUTTON_PIN);
     
-    PORTD|=(1<<LED_PIN1);
-    PORTD&=~(1<<LED_PIN2);
-    _delay_ms(1000);
-    // if(PORTD & ~(1<<LED_PIN2))
-    //   {
-    //     PORTD&=~(1<<LED_PIN1);
-    //     PORTD|=(1<<LED_PIN2);
-    //   }
-
-    PORTD&=~(1<<LED_PIN1);
-        PORTD|=(1<<LED_PIN2);
-
     while(1)
     {
-        PORTD^=(1<<LED_PIN3);
-        _delay_ms(1000);
+      if(PIND&(1<<BUTTON_PIN))
+      {
+        PORTD&= ~(1<<LED_PIN);
+      }
+      else{
+        PORTD|=(1<<LED_PIN);
+        _delay_ms(500);
+        //LED ON
+        //delay 500ms
+
+        //LED OFF
+        //delay 500ms
+        PORTD&= ~(1<<LED_PIN);
+        _delay_ms(500);   
+    }
     }
     return 0;
 }

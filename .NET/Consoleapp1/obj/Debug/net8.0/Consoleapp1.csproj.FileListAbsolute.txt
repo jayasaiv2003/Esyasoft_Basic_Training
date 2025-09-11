@@ -1,0 +1,15 @@
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\bin\Debug\net8.0\Consoleapp1.exe
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\bin\Debug\net8.0\Consoleapp1.deps.json
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\bin\Debug\net8.0\Consoleapp1.runtimeconfig.json
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\bin\Debug\net8.0\Consoleapp1.dll
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\bin\Debug\net8.0\Consoleapp1.pdb
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.AssemblyInfoInputs.cache
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.AssemblyInfo.cs
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.csproj.CoreCompileInputs.cache
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.sourcelink.json
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.dll
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\refint\Consoleapp1.dll
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.pdb
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\Consoleapp1.genruntimeconfig.cache
+D:\Esyasoft_Basic_Training\.NET\Consoleapp1\obj\Debug\net8.0\ref\Consoleapp1.dll

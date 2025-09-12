@@ -81,6 +81,50 @@ select user_id,max(order_no) from orders group by user_id order by user_id desc 
 FETCH NEXT 1 ROWS ONLY
 
 
+--week2_assignment
+--question 1
+--Top N Books per User.
+--Find the top 2 most expensive books purchased by each user
+SELECT *
+FROM (
+    SELECT 
+        u.user_id,
+        u.name AS user_name,
+        b.title AS book_title,
+        b.price,
+        ROW_NUMBER() OVER (PARTITION BY u.user_id ORDER BY b.price DESC) AS RowNum,
+        RANK() OVER (PARTITION BY u.user_id ORDER BY b.price DESC) AS RankNum,
+        DENSE_RANK() OVER (PARTITION BY u.user_id ORDER BY b.price DESC) AS DenseRankNum
+    FROM users u inner join orders o on u.user_id=o.user_id
+inner join books b on o.product_id=b.product_id 
+) AS RankedBooks
+WHERE RowNum <= 2
+ORDER BY user_id, RowNum;
+
+
+--Question2
+--Find how much each user spent in total and rank them
+
+SELECT 
+    u.user_id,
+    u.name,
+    SUM(b.price) AS TotalSpent,
+    RANK() OVER (ORDER BY SUM(b.price) DESC) AS RankNum,
+    DENSE_RANK() OVER (ORDER BY SUM(b.price) DESC) AS DenseRankNum
+FROM orders o
+JOIN users u ON o.user_id = u.user_id
+JOIN books b ON o.product_id = b.product_id
+GROUP BY u.user_id, u.name;
+
+
+
+
+--select *,ROW_NUMBER() OVER (order by salary desc) as popularity from Employees
+
+--select *,ROW_NUMBER() OVER (order by salary desc ) as row_number, RANK() over (order by salary desc) as rank_number ,DENSE_RANK() over (order by salary desc) as dense_rank from Employees
+
+--select *,ROW_NUMBER() over (partition by dept_id order by salary) as popularity from Employees 
+
 
 
 

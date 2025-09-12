@@ -1,0 +1,15 @@
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\bin\Debug\net8.0\grade evaluator.exe
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\bin\Debug\net8.0\grade evaluator.deps.json
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\bin\Debug\net8.0\grade evaluator.runtimeconfig.json
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\bin\Debug\net8.0\grade evaluator.dll
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\bin\Debug\net8.0\grade evaluator.pdb
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.AssemblyInfoInputs.cache
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.AssemblyInfo.cs
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.csproj.CoreCompileInputs.cache
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.sourcelink.json
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.dll
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\refint\grade evaluator.dll
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.pdb
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\grade evaluator.genruntimeconfig.cache
+D:\Esyasoft_Basic_Training\.NET\grade evaluator\obj\Debug\net8.0\ref\grade evaluator.dll

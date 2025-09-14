@@ -1,0 +1,1 @@
+This program uses a while loop where it runs the code until exit is opted. The variables-account number, current balance are set global. Every method updated changes to those global variables. This is for only one bank account .

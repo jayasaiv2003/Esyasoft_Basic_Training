@@ -1,1 +1,0 @@
-Sql query for the smartMeter Reading data 

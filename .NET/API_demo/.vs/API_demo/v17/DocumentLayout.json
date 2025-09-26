@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{804A9AE2-F15C-4F0A-B773-20C76A36EDEF}|API_demo.csproj|d:\\esyasoft_basic_training\\.net\\api_demo\\controllers\\api_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804A9AE2-F15C-4F0A-B773-20C76A36EDEF}|API_demo.csproj|solutionrelative:controllers\\api_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804A9AE2-F15C-4F0A-B773-20C76A36EDEF}|API_demo.csproj|d:\\esyasoft_basic_training\\.net\\api_demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804A9AE2-F15C-4F0A-B773-20C76A36EDEF}|API_demo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804A9AE2-F15C-4F0A-B773-20C76A36EDEF}|API_demo.csproj|d:\\esyasoft_basic_training\\.net\\api_demo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{804A9AE2-F15C-4F0A-B773-20C76A36EDEF}|API_demo.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "API_controller.cs",
+              "DocumentMoniker": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\Controllers\\API_controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\API_controller.cs",
+              "ToolTip": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\Controllers\\API_controller.cs",
+              "RelativeToolTip": "Controllers\\API_controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:42:36.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:24:54.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Esyasoft_Basic_Training\\.NET\\API_demo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-22T07:35:19.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
